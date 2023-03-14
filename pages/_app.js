@@ -1,5 +1,17 @@
-import '@/styles/globals.css'
+import Navbar from '../components/Navbar.jsx';
+import '../styles/globals.css';
+import Particle from '../components/Particle.jsx';
+import { Component } from 'react';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+function Myapp({ Component, pageProps}) {
+  return (
+    <>
+      <Navbar />
+      <Particle />
+      <Component {...pageProps} />
+    </>
+  );
 }
+
+export default Myapp;
