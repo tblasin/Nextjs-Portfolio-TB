@@ -1,15 +1,16 @@
-import Navbar from '../components/Navbar.jsx';
+import React from 'react';
+import Navbar from '../components/Navbar';
 import '../styles/globals.css';
-import Particle from '../components/Particle.jsx';
-import { Component } from 'react';
+import Particles from '../components/Particle';
 
 
-function Myapp({ Component, pageProps}) {
+
+function Myapp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      <Particle />
       <Component {...pageProps} />
+      <Particles />
     </>
   );
 }

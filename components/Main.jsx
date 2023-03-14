@@ -30,22 +30,22 @@ const Main = () => {
                 Actuellement je me spécialise dans la création d'applications web front-end grâce à Next.Js, un puissant framework React. Enfin je m'intéresse à React Native afin de concevoir des applications mobiles "Android" et "iOS". </p>
             
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-5'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <a href='https://www.linkedin.com/in/tblasin/'>
                             <FaLinkedinIn />
                         </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <a href='https://github.com/tblasin'>
                             <FaGithub />
                         </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <a href='mailto:trblasin@gmail.com'>
                         <AiOutlineMail />
                         </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <Link href='/#Cv'>
                             <BsFillPersonLinesFill />
                         </Link>

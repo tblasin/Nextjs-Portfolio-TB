@@ -22,10 +22,10 @@ const Contact = () => {
 
             {/* left */}
 
-            <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+            <div className='col-span-3 lg:col-span-2 w-full h-full bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='lg:p-4 h-full rounded-xl'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300 contrast-200 opacity-80' 
+                            <Image className='rounded-xl contrast-200' 
                             src='/../public/assets/ContactPicture.jpg'
                             width='400'
                             height='100'
@@ -41,22 +41,22 @@ const Contact = () => {
                         <div>
                             <p className='pt-10'>Contact :</p>
                             <div className='flex items-center justify-between py-10'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <a href='https://www.linkedin.com/in/tblasin/'>
                                         <FaLinkedinIn />
                                     </a>
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <a href='https://github.com/tblasin'>
                                         <FaGithub  />
                                     </a>
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <a href='mailto:trblasin@gmail.com'>
                                         <AiOutlineMail />
                                     </a>
                                 </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <Link href='/#Cv'>    
                                          <BsFillPersonLinesFill />
                                     </Link>
@@ -68,7 +68,7 @@ const Contact = () => {
 
 
             {/* right */}
-                <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+                <div className='col-span-3 w-full h-auto bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
                         <form action="https://formsubmit.co/74cac7766b6642074dccee225ae0fcce" method="POST">
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
@@ -107,13 +107,13 @@ const Contact = () => {
             </div> 
             <div className='flex justify-center py-12'>
                 <Link href='/'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full bg-gray-200 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <HiOutlineChevronDoubleUp className='text-[#38b1a9]' size={30} />
                     </div>
                 </Link>
             </div>
             <div className='flex justify-center'>
-                    <p className='flex justify-between'> Copyrights</p> 
+                    <div className='flex justify-between'> Copyrights</div> 
                         <div className='pl-2 pr-2'>
                             <Image  
                                 src='/../public/assets/All_rights_reserved_logo.png'
@@ -122,7 +122,7 @@ const Contact = () => {
                                 alt='Copyrights' 
                             />
                         </div> 
-                        <p>2023 Tristan BLASIN, all rights reserved.</p>
+                        <div>2023 Tristan BLASIN, all rights reserved.</div>
                 </div>
         </div>
     </div>
