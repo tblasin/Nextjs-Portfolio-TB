@@ -22,8 +22,8 @@ const InfosKasa = () => {
                             className='rounded-xl shadow-lg shadow-gray-600 hover:scale-105 ease-in duration-300' 
                             src='/../public/assets/Projects/Kasa/Kasa.png' 
                             alt='Kasa' 
-                            width={400}
-                            height={100}
+                            width='400'
+                            height='100'
                             />
                         </div>
                         <div>

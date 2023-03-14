@@ -27,8 +27,8 @@ const Contact = () => {
                         <div>
                             <Image className='rounded-xl hover:scale-105 ease-in duration-300 contrast-200 opacity-80' 
                             src='/../public/assets/ContactPicture.jpg'
-                            width={400}
-                            height={100}
+                            width='400'
+                            height='100'
                             alt='/' />
                         </div>
                         <div className='p-6 pt-1 mt-4 bg-[#FFFF] shadow-xl rounded-xl'>
@@ -113,16 +113,16 @@ const Contact = () => {
                 </Link>
             </div>
             <div className='flex justify-center'>
-                    <p className='flex justify-between'> Copyrights 
+                    <p className='flex justify-between'> Copyrights</p> 
                         <div className='pl-2 pr-2'>
                             <Image  
                                 src='/../public/assets/All_rights_reserved_logo.png'
-                                width={20}
-                                height={20}
+                                width='20'
+                                height='20'
                                 alt='Copyrights' 
                             />
                         </div> 
-                        2023 Tristan BLASIN, all rights reserved.</p>
+                        <p>2023 Tristan BLASIN, all rights reserved.</p>
                 </div>
         </div>
     </div>

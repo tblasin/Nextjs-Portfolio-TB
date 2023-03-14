@@ -62,7 +62,7 @@ const Navbar = () => {
                         src="/../public/assets/navLogo1.png" 
                         alt="/" 
                         width='55' 
-                        height='20' 
+                        height='20'  
                     />
                 </Link>
                 

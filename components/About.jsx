@@ -26,8 +26,8 @@ const About = () => {
                   <Image className='rounded-xl' 
                                     src='/../public/assets/MacDesk.jpg' 
                                     alt='Mac Desktop' 
-                                    width={600}
-                                    height={400}
+                                    width='600'
+                                    height='400'
                                   
                                     />
                 </div>

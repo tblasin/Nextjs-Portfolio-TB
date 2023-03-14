@@ -15,12 +15,7 @@ const Main = () => {
             <div className='mt-200'>
                 <div className='w-full flex justify-center pt-20'>
                     <div className='w-50 h-auto m-10 shadow-xl shadow-gray-400 rounded-xl p-2'>
-                            <Image className='rounded-xl' 
-                                    src='/../public/assets/Photo2.jpg' 
-                                    alt='PhotoTB' 
-                                    width={200}
-                                    height={200}
-                            />
+                            <Image className='rounded-xl w-200 h-auto' src='/../public/assets/Photo2.jpg' width='200' height='100' alt='PhotoTB' /> 
                     </div>
                 </div>
                 

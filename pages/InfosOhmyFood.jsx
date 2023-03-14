@@ -22,8 +22,8 @@ const InfosOhmyFood = () => {
                             className='rounded-xl shadow-lg shadow-gray-600 hover:scale-105 ease-in duration-300' 
                             src='/../public/assets/Projects/OhmyFood/Ohmyfood.png' 
                             alt='Oh my food' 
-                            width={400}
-                            height={100}
+                            width='400'
+                            height='100'
                             />
                         </div>
                         <div>
