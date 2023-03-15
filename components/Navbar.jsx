@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import NavLogoImg from '../public/assets/navLogo1.png'
 import Link from 'next/link';
 import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
@@ -59,7 +60,7 @@ const Navbar = () => {
             <div className='flex justify-between items-center w-full h-full px-3 2xl:px-16 bg-gradient-to-r from-[#02808e] to-[#05a6a1] shadow-lg shadow-gray-500'>
                 <Link href='/'>
                     <Image 
-                        src="/../public/assets/navLogo1.png" 
+                        src={NavLogoImg} 
                         alt="/" 
                         width='55' 
                         height='20'  
