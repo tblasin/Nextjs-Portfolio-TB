@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Link from 'next/link';
 import Image from 'next/image';
-import InfosKasa from '../pages/InfosKasa.jsx';
+
 
 
 const Main = () => {
