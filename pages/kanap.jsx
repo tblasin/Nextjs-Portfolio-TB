@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import kanapImg from '../public/assets/Projects/kanap/kanap2.png'
+import kanapImg from '../public/assets/Projects/Kanap/Kanap.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 

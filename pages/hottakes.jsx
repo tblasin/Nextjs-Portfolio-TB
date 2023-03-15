@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import hottakesImg from '../public/assets/Projects/HotTakes/chili.png'
+import hottakesImg from '../public/assets/Projects/HotTakes/HotTakes.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
