@@ -29,7 +29,8 @@ const Main = () => {
                 </h1>
                 <p className='py-4 uppercase text-xl tracking-widest text-gray-600'>Créons un projet ensemble !</p>
                 <p className=' text-gray-600 max-w-[70%] m-auto'>Je suis développeur web spécialisé dans la réalisation de sites web dynamiques de dernière génération, codés en JavaScript et React.Js. 
-                Actuellement je me spécialise dans la création d'applications web front-end grâce à Next.Js, un puissant framework React. Enfin je m'intéresse à React Native afin de concevoir des applications mobiles "Android" et "iOS". </p>
+                Actuellement je me spécialise dans la création d'applications web front-end grâce à Next.Js, un puissant framework React.</p> 
+                <p>Enfin je m'intéresse à React Native afin de concevoir des applications mobiles "Android" et "iOS".</p>
             
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-5'>
                     <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
