@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Image from 'next/image';
+import OmfImg from '../public/assets/Projects/OhmyFood/Ohmyfood.png'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import {AiOutlineMail} from 'react-icons/ai';
@@ -21,7 +22,7 @@ const InfosOhmyFood = () => {
                         <div className='flex justify-center'>
                             <Image 
                             className='rounded-xl shadow-lg shadow-gray-600 hover:scale-105 ease-in duration-300' 
-                            src='/../public/assets/Projects/OhmyFood/Ohmyfood.png' 
+                            src={OmfImg} 
                             alt='Oh my food' 
                             width='400'
                             height='100'

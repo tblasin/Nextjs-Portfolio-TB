@@ -1,5 +1,14 @@
-import Image from 'next/image';
+
 import React from 'react';
+import Image from 'next/image';
+import HtmlImg from '../public/assets/html.png'
+import CssImg from '../public/assets/css.png'
+import JsImg from '../public/assets/javascript.png'
+import ReactImg from '../public/assets/react.png'
+import NextImg from '../public/assets/nextjs.png' 
+import TailwindImg from '../public/assets/tailwind.png'
+import GithubImg from '../public/assets/github1.png' 
+import MongodbImg from '../public/assets/mongo.png'
 
 const Skills = () => {
   return (
@@ -13,7 +22,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/html.png' 
+                                src={HtmlImg} 
                                 width={64} 
                                 height={64} 
                                 alt='/'   
@@ -28,7 +37,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/css.png' 
+                                src={CssImg} 
                                 width={64} 
                                 height={64} 
                                 alt='/'   
@@ -43,7 +52,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/javascript.png' 
+                                src={JsImg} 
                                 width={64} 
                                 height={64} 
                                 alt='/'   
@@ -58,7 +67,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/react.png' 
+                                src={ReactImg} 
                                 width={64} 
                                 height={64} 
                                 alt='/'   
@@ -73,7 +82,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/nextjs.png' 
+                                src={NextImg}
                                 width={64} 
                                 height={64} 
                                 alt='/'   
@@ -88,7 +97,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/tailwind.png' 
+                                src={TailwindImg} 
                                 width={64} 
                                 height={64} 
                                 alt='/'   
@@ -103,7 +112,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/github1.png' 
+                                src={GithubImg}
                                 width={64} 
                                 height={64} 
                                 alt='/'   
@@ -118,7 +127,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/mongo.png' 
+                                src={MongodbImg} 
                                 width={64} 
                                 height={64} 
                                 alt='/'   

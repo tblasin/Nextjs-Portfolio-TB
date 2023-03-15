@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Image from 'next/image';
+import KanapImg from '../public/assets/Projects/Kanap/Kanap.png' 
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import {AiOutlineMail} from 'react-icons/ai';
@@ -21,7 +22,7 @@ const InfosKanap = () => {
                         <div className='flex justify-center'>
                             <Image 
                             className='rounded-xl shadow-lg shadow-gray-600 hover:scale-105 ease-in duration-300' 
-                            src='/../public/assets/Projects/Kanap/Kanap.png' 
+                            src={KanapImg}
                             alt='Kanap' 
                             width='400'
                             height='100'

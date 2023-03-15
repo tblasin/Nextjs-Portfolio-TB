@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
+import ParticlesImg from '../public/assets/ContactPicture.jpg'
+import CopyrightsImg from '../public/assets/All_rights_reserved_logo.png'
 import {AiOutlineMail} from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -26,7 +28,7 @@ const Contact = () => {
                 <div className='lg:p-4 h-full rounded-xl'>
                         <div>
                             <Image className='rounded-xl contrast-200' 
-                            src='/../public/assets/ContactPicture.jpg'
+                            src={ParticlesImg}
                             width='400'
                             height='100'
                             alt='/' />
@@ -116,7 +118,7 @@ const Contact = () => {
                     <div className='flex justify-between'> Copyrights</div> 
                         <div className='pl-2 pr-2'>
                             <Image  
-                                src='/../public/assets/All_rights_reserved_logo.png'
+                                src={CopyrightsImg}
                                 width='20'
                                 height='20'
                                 alt='Copyrights' 

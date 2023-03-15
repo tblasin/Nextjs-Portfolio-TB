@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Image from 'next/image'
+import MacDeskImg from '../public/assets/MacDesk.jpg'
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
               </div>
                 <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-300'>
                   <Image className='rounded-xl' 
-                                    src='/../public/assets/MacDesk.jpg' 
+                                    src={MacDeskImg}
                                     alt='Mac Desktop' 
                                     width='600'
                                     height='400'

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import CvtbImg from '../public/assets/CV/CV-TB.png'
 import React from 'react';
 
 const PNG_FILE_URL = 'http://localhost:3000/CV-TB.png'
@@ -19,7 +20,7 @@ function App() {
           <p className='uppercase text-3xl tracking-widest text-[#298789]'>Mon CV</p>
               <div className='py-6 flex justify-center'>
                   <Image
-                      src="/../public/assets/CV/CV-TB.png"
+                      src={CvtbImg}
                           alt="cv"
                           width={600}
                           height={200} 
