@@ -5,7 +5,7 @@ import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Link from 'next/link';
 import Image from 'next/image';
-import PhototbImg from '../public/assets/Photo2.jpg'
+import PhototbImg from '/public/assets/Photo2.jpg'
 
 
 

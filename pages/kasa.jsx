@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import kasaImg from '../public/assets/Projects/Kasa/Kasa.png'
+import kasaImg from '/public/assets/Projects/Kasa/Kasa.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 

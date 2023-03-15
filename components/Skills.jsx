@@ -1,14 +1,14 @@
 
 import React from 'react';
 import Image from 'next/image';
-import HtmlImg from '../public/assets/html.png'
-import CssImg from '../public/assets/css.png'
-import JsImg from '../public/assets/javascript.png'
-import ReactImg from '../public/assets/react.png'
-import NextImg from '../public/assets/nextjs.png' 
-import TailwindImg from '../public/assets/tailwind.png'
-import GithubImg from '../public/assets/github1.png' 
-import MongodbImg from '../public/assets/mongo.png'
+import HtmlImg from '/public/assets/html.png'
+import CssImg from '/public/assets/css.png'
+import JsImg from '/public/assets/javascript.png'
+import ReactImg from '/public/assets/react.png'
+import NextImg from '/public/assets/nextjs.png' 
+import TailwindImg from '/public/assets/tailwind.png'
+import GithubImg from '/public/assets/github1.png' 
+import MongodbImg from '/public/assets/mongo.png'
 
 const Skills = () => {
   return (

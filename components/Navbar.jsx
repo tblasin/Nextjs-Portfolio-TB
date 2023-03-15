@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import NavLogoImg from '../public/assets/navLogo1.png'
+import NavLogoImg from '/public/assets/navLogo1.png'
 import Link from 'next/link';
 import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';

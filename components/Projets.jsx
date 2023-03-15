@@ -1,9 +1,9 @@
 
 import React from 'react';
-import KasaImg from '../public/assets/Projects/Kasa/Kasa.png'
-import HottakesImg from '../public/assets/Projects/HotTakes/HotTakes.png'
-import KanapImg from '../public/assets/Projects/Kanap/Kanap.png'
-import OhmyfoodImg from '../public/assets/Projects/OhmyFood/Ohmyfood.png'
+import KasaImg from '/public/assets/Projects/Kasa/Kasa.png'
+import HottakesImg from '/public/assets/Projects/HotTakes/HotTakes.png'
+import KanapImg from '/public/assets/Projects/Kanap/Kanap.png'
+import OhmyfoodImg from '/public/assets/Projects/OhmyFood/Ohmyfood.png'
 import ProjectItem from './ProjectItem';
 
 

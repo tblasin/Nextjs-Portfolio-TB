@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import CvtbImg from '../public/assets/CV/CV-TB.png'
+import CvtbImg from '/public/assets/CV/CV-TB.png'
 import React from 'react';
 
 const PNG_FILE_URL = 'http://localhost:3000/CV-TB.png'

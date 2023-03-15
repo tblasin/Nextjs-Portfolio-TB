@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import ParticlesImg from '../public/assets/ContactPicture.jpg'
-import CopyrightsImg from '../public/assets/All_rights_reserved_logo.png'
+import ParticlesImg from '/public/assets/ContactPicture.jpg'
+import CopyrightsImg from '/public/assets/All_rights_reserved_logo.png'
 import {AiOutlineMail} from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs';
