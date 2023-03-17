@@ -17,7 +17,7 @@ const InfosKanap = () => {
     <div className='flex justify-center' id='InfosKanap'>
         <Navbar />
 
-            <div className='w-2/3 h-51 mt-32 mb-4 shadow-xl shadow-gray-400 bg-gradient-to-r from-[#02808e] to-[#05a6a1] rounded-xl p-4'>
+            <div className='w-[90%] lg:w-[70%] h-51 mt-32 mb-4 shadow-xl shadow-gray-400 bg-gradient-to-r from-[#9a9c9c] to-[#cfd5d5] rounded-xl p-4'>
                 <div className='p-4 h-full rounded-xl'>
                         <div className='flex justify-center'>
                         <ProjectItem2
@@ -39,7 +39,7 @@ const InfosKanap = () => {
                         </div> 
                         <div>
                             <p className='pt-6 text-lg'>Contact :</p>
-                            <div className='flex items-center justify-evenly py-4'>
+                            <div className='flex items-center justify-evenly space-x-3 py-4 lg:justify-center-space-x-8'>
                                 <div className='rounded-full bg-[#C4C3C3] shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                     <a href='https://www.linkedin.com/in/tblasin/'>
                                         <FaLinkedinIn />

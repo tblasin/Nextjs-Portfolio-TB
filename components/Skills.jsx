@@ -12,134 +12,136 @@ import MongodbImg from '/public/assets/mongo.png'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
-        <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+    <div id='skills' className='w-full lg:h-screen mt-[-90%] md:mt-[0%] md:py-[16%] lg:py-[10%]'>
+        <div className='max-w-[90%] mx-auto flex flex-col justify-center h-auto'>
             <p className='text-3xl tracking-widest uppercase text-[#298789]'>Compétences</p>
                 <h2 className='py-4'>Outils web</h2>
 
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image 
-                                src={HtmlImg} 
-                                width={64} 
-                                height={64} 
-                                alt='/'   
-                            />                        
+                <div className='flex justify-center lg:py-[5%]'>
+                    <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6  w-[60%] lg:w-[80%] lg:mt-10'>
+                        <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <Image 
+                                        src={HtmlImg} 
+                                        width={64} 
+                                        height={64} 
+                                        alt='/'   
+                                    />                        
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>HTML</h3>
+                                </div>
+                            </div>
                         </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>HTML</h3>
+                        <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <Image 
+                                        src={CssImg} 
+                                        width={64} 
+                                        height={64} 
+                                        alt='/'   
+                                    />                        
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>CSS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <Image 
+                                        src={JsImg} 
+                                        width={64} 
+                                        height={64} 
+                                        alt='/'   
+                                    />                        
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>JAVASCRIPT</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <Image 
+                                        src={ReactImg} 
+                                        width={64} 
+                                        height={64} 
+                                        alt='/'   
+                                    />                        
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>REACT</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <Image 
+                                        src={NextImg}
+                                        width={64} 
+                                        height={64} 
+                                        alt='/'   
+                                    />                        
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>NEXT</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <Image 
+                                        src={TailwindImg} 
+                                        width={64} 
+                                        height={64} 
+                                        alt='/'   
+                                    />                        
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>TAILWIND</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <Image 
+                                        src={GithubImg}
+                                        width={64} 
+                                        height={64} 
+                                        alt='/'   
+                                    />                        
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>GITHUB</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                                <div className='m-auto'>
+                                    <Image 
+                                        src={MongodbImg} 
+                                        width={64} 
+                                        height={64} 
+                                        alt='/'   
+                                    />                        
+                                </div>
+                                <div className='flex flex-col items-center justify-center'>
+                                    <h3>MONGODB</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image 
-                                src={CssImg} 
-                                width={64} 
-                                height={64} 
-                                alt='/'   
-                            />                        
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>CSS</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image 
-                                src={JsImg} 
-                                width={64} 
-                                height={64} 
-                                alt='/'   
-                            />                        
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>JAVASCRIPT</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image 
-                                src={ReactImg} 
-                                width={64} 
-                                height={64} 
-                                alt='/'   
-                            />                        
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>REACT</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image 
-                                src={NextImg}
-                                width={64} 
-                                height={64} 
-                                alt='/'   
-                            />                        
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>NEXT</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image 
-                                src={TailwindImg} 
-                                width={64} 
-                                height={64} 
-                                alt='/'   
-                            />                        
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>TAILWIND</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image 
-                                src={GithubImg}
-                                width={64} 
-                                height={64} 
-                                alt='/'   
-                            />                        
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>GITHUB</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 bg-[#FFFF] shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image 
-                                src={MongodbImg} 
-                                width={64} 
-                                height={64} 
-                                alt='/'   
-                            />                        
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>MONGODB</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div>  
     </div>
   )
 }

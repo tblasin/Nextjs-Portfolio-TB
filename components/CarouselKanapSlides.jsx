@@ -14,17 +14,17 @@ import Kanap7Img from '../public/assets/KanapSlides/Kanap7.png'
 function Slider() {
 
     return (  
-    <Carousel>
+    <Carousel className="lg:w-[60%]">
         <div className='py-10'>
             <Image 
                 src={Kanap1Img}
                 className='rounded-xl shadow-md shadow-gray-500'             
                 alt='Kanap1' 
-                width={600}
-                height={200}
+                width={400}
+                height={400}
              />
         </div> 
-        <div className='py-10'>
+        <div className="py-10">
             <Image 
                 src={Kanap2Img}
                 className='rounded-xl shadow-md shadow-gray-500'           

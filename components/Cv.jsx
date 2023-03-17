@@ -16,7 +16,7 @@ function App() {
     };
 
     return (
-      <div id='Cv' className='max-w-[1240px] mx-auto px-2 py-16'>
+      <div id='Cv' className='max-w-[1240px] mx-auto px-2 py-[10%] md:py-[15%]'>
           <p className='uppercase text-3xl tracking-widest text-[#298789]'>Mon CV</p>
               <div className='py-6 flex justify-center'>
                   <Image

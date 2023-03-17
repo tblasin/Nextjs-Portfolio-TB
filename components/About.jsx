@@ -2,11 +2,11 @@
 import React from 'react'
 import Image from 'next/image'
 import MacDeskImg from '../public/assets/MacDesk.jpg'
-import CodeJsImg from '../public/assets/CodeLines.jpg'
+
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
+    <div id='about' className='w-full md:h-screen p-2 flex items-center py-[110%] md:py-[15%] md:w-[100%] md:p-6 lg:py-[10%]'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-3xl tracking-widest text-[#298789]'>A propos</p>
@@ -20,33 +20,20 @@ const About = () => {
                           <p>En effet, l'activité de loisirs tournée vers l'océan à la Réunion a subi, durant toute cette période, une crise sans précédent.</p>
                           <p>Désireux de tourner une page professionnelle éprouvante, je décide en 2021 de suivre une formation en ligne chez "OpenClassrooms" afin de devenir développeur Web Front-end.</p>
                           <p>J'ai donc commençé à apprendre les langages de programmation Html5 et Css3.</p>
-                          <p>Ensuite, le "vanilla JavaScript" pour rendre le site dynamique et enfin React.Js afin stucturer le code sous forme de composants.</p>
-                          <p>Actuellement, je me spécialise dans le développement d'applications web à l'aide de Next.js, et pour finir, je commence à apprendre React Native pour la création d'applications mobiles.</p>
+                          <p>Ensuite, le "vanilla JavaScript" pour rendre le site dynamique et enfin React.Js pour stucturer le code sous forme de composants.</p>
+                          <p>Actuellement, je me spécialise dans le développement d'applications web à l'aide de Next.js, et pour finir, je commence à apprendre React Native pour la création d'applications mobiles...</p>
                       </div>
                         
               </div>
-                <div className='flex flex-col w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl p-2 ml-6 mt-24'>
-                  <div>
+                <div className='flex justify-center w-full h-auto m-auto shadow-md shadow-gray-600 rounded-xl p-2 mt-4'>
                     <Image className='rounded-xl' 
-                                      src={MacDeskImg}
-                                      alt='Mac Desktop' 
-                                      width='400'
-                                      height='400'
-                                      />
-                  </div>
-                  <div>
-                    <Image className='rounded-xl opacity-90 contrast-more:50 pt-2' 
-                                      src={CodeJsImg}
-                                      alt='Mac Desktop' 
-                                      width='400'
-                                      height='400'
-                                      />
-                  </div>
-                  
+                           src={MacDeskImg}
+                            alt='Mac Desktop' 
+                            width='auto'
+                            height='400'
+                    />
                 </div>
-                
           </div>
-
     </div>
     
   )

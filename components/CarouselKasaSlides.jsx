@@ -14,7 +14,7 @@ import Kasa7Img from '../public/assets/KasaSlides/Kasa7.png'
 function Slider() {
 
     return (  
-    <Carousel>
+    <Carousel className="lg:w-[60%]">
         <div className='py-10'>
             <Image 
                 src={Kasa1Img}

@@ -10,7 +10,10 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ['Prompt']
-      }
+      },
+      screen: {
+        lg: '1024px',
+      },
     },
   },
   plugins: [],
