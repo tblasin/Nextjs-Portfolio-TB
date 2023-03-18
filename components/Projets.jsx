@@ -10,7 +10,7 @@ import ProjectItem from './ProjectItem.jsx';
 
 const Projets = () => {
   return (
-    <div id='projects' className='w-full mt-[10%] md:py-[8%] md:w-[95%] md:ml-5 lg:py-[5%]'>
+    <div id='projects' className='w-full mt-[10%] md:py-[8%] md:w-[95%] md:ml-5 lg:py-[5%] xs:py-[10%] xs:mt-[30%]'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-3xl tracking-widest uppercase text-[#278789]'>Projets</p>
               <h2 className='py-4'>Mes réalisations</h2>

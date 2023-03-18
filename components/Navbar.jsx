@@ -97,21 +97,20 @@ const Navbar = () => {
                                             
                                     <div>
                                         <div className='flex w-full items-center justify-between'>
-                                            <Link href='/'>
-                                                <Image 
-                                                    src='/../public/assets/navLogo1.png' 
-                                                    width='50' 
-                                                    height='10' 
-                                                    alt='/' 
-                                                />
-                                            </Link>
+                                        <Link href='/'>
+                                            <Image 
+                                                src={NavLogoImg} 
+                                                alt="/" 
+                                                width='55' 
+                                                height='20'  
+                                            />
+                                        </Link>
                                            
                                             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                                                 <AiOutlineClose />
                                             </div>
                                         </div>
-                                        <div className='border-b border-gray-300 my-4'>
-                                        <p className='w-[85%] md:w-[90%] py-4'>Porfolio de tristan Blasin.</p>
+                                        <div className='border-b border-gray-300 my-8'>
                                         </div>
                                     </div>
                                     <div className='py-4 flex-col'>
@@ -132,8 +131,8 @@ const Navbar = () => {
                                                 <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contact</li>
                                             </Link>
                                         </ul>
-                                        <div className='pt-40'>
-                                            <p className='uppercase tracking-widest text-[#5651e5]'>Connexion</p>
+                                        <div className='pt-40 flex justify-center'>
+                                            
                                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                                     <FaLinkedinIn />

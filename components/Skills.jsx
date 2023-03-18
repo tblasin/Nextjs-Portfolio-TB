@@ -12,7 +12,7 @@ import MongodbImg from '/public/assets/mongo.png'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen mt-[-90%] md:mt-[0%] md:py-[16%] lg:py-[10%]'>
+    <div id='skills' className='w-full lg:h-screen mt-[-90%] md:mt-[0%] md:py-[16%] lg:py-[10%] xs:py-[29%] xs:mt-[50%]'>
         <div className='max-w-[90%] mx-auto flex flex-col justify-center h-auto'>
             <p className='text-3xl tracking-widest uppercase text-[#298789]'>Compétences</p>
                 <h2 className='py-4'>Outils web</h2>

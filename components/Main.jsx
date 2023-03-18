@@ -20,37 +20,37 @@ const Main = () => {
                     </div>
                 </div>
                 
-                    <div className='md:mt-[-10%]'>
-                        <h1 className='text-sm text-gray-700'>
+                    <div className='md:mt-[-10%] xs:mt-[-10%]'>
+                        <h1 className='text-sm text-gray-700 xs:text-xs xs:mt-2'>
                             Bonjour, je m'appelle <span className='text-2xl text-[#02808e]'>Tristan Blasin</span> 
                         </h1>
-                        <h1 className='py-2 text-2xl text-gray-700'>
+                        <h1 className='py-2 text-2xl text-gray-700 xs:text-xs'>
                             Développeur Web Front-end React.Js
                         </h1>
-                            <p className='py-4 uppercase text-lg tracking-widest text-gray-700'>Créons un projet ensemble !</p>
-                            <p className=' text-gray-700 max-w-[85%] m-auto'>
+                            <p className='py-4 uppercase text-lg tracking-widest text-gray-700 xs:text-xs xs:py-2'>Créons un projet ensemble !</p>
+                            <p className=' text-gray-700 max-w-[85%] m-auto xs:text-xs'>
                                 Je suis développeur web spécialisé dans la réalisation 
                                 de sites web dynamiques de dernière génération, codés en JavaScript et React.Js. 
                                 Actuellement je me spécialise dans la création d'applications web front-end grâce à Next.Js, un puissant framework React.</p> 
-                            <p className='md:w-[90%] md:ml-9'>Enfin je m'intéresse à React Native afin de concevoir des applications mobiles "Android" et "iOS".</p>
+                            <p className='md:w-[90%] md:ml-9 xs:text-xs'>Enfin je m'intéresse à React Native afin de concevoir des applications mobiles "Android" et "iOS".</p>
                     
-                                    <div className='flex items-center justify-between max-w-[330px] m-auto py-10'>
-                                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <div className='flex items-center justify-between max-w-[330px] m-auto py-10 xs:w-60'>
+                                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                             <a href='https://www.linkedin.com/in/tblasin/'>
                                                 <FaLinkedinIn />
                                             </a>
                                         </div>
-                                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                             <a href='https://github.com/tblasin'>
                                                 <FaGithub />
                                             </a>
                                         </div>
-                                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                             <a href='mailto:trblasin@gmail.com'>
                                             <AiOutlineMail />
                                             </a>
                                         </div>
-                                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                        <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                             <Link href='/#Cv'>
                                                 <BsFillPersonLinesFill />
                                             </Link>

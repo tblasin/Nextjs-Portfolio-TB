@@ -14,7 +14,7 @@ import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] m-auto px-4 py-16 w-full md:py-[15%] md:w-[70%] lg:py-[10%] lg:w-[80%]'>
+        <div className='max-w-[1240px] m-auto px-4 py-16 w-full md:py-[15%] md:w-[70%] lg:py-[10%] lg:w-[80%] xs:py-[30%] xs:mt-[30%]'>
             <p className='text-3xl tracking-widest uppercase text-[#278789]'>
               Contact
             </p>
@@ -24,7 +24,7 @@ const Contact = () => {
 
             {/* left */}
 
-            <div className='col-span-3 lg:col-span-2 w-full h-full bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl p-2'>
+            <div className='col-span-3 lg:col-span-2 w-full h-full bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl p-2 xs:w-[95%]'>
                 <div className='lg:p-4 h-full rounded-xl'>
                         <div>
                             <Image className='rounded-xl contrast-200' 
@@ -42,23 +42,23 @@ const Contact = () => {
                         </div> 
                         <div>
                             <p className='pt-10'>Contact :</p>
-                            <div className='flex items-center justify-between py-10 px-4 md:px-12 lg:px-8'>
-                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <div className='flex items-center justify-between py-10 px-4 md:px-12 lg:px-8 xs:py-5'>
+                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                     <a href='https://www.linkedin.com/in/tblasin/'>
                                         <FaLinkedinIn />
                                     </a>
                                 </div>
-                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                     <a href='https://github.com/tblasin'>
                                         <FaGithub  />
                                     </a>
                                 </div>
-                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                     <a href='mailto:trblasin@gmail.com'>
                                         <AiOutlineMail />
                                     </a>
                                 </div>
-                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                <div className='rounded-full bg-white shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                     <Link href='/#Cv'>    
                                          <BsFillPersonLinesFill />
                                     </Link>
@@ -70,7 +70,7 @@ const Contact = () => {
 
 
             {/* right */}
-                <div className='col-span-3 w-full h-auto bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+                <div className='col-span-3 w-full h-auto bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl lg:p-4 xs:w-[95%]'>
                     <div className='p-4'>
                         <form action="https://formsubmit.co/74cac7766b6642074dccee225ae0fcce" method="POST">
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
