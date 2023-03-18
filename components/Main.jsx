@@ -22,7 +22,7 @@ const Main = () => {
                 
                     <div className='md:mt-[-10%] xs:mt-[-10%]'>
                         <h1 className='text-sm text-gray-700 xs:text-xs xs:mt-2'>
-                            Bonjour, je m'appelle <span className='text-2xl text-[#02808e]'>Tristan Blasin</span> 
+                            Bonjour, je m'appelle <span className='text-2xl text-[#02808e] xs:text-xs'>Tristan Blasin</span> 
                         </h1>
                         <h1 className='py-2 text-2xl text-gray-700 xs:text-xs'>
                             Développeur Web Front-end React.Js
