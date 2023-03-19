@@ -2,7 +2,7 @@ import Image from 'next/image';
 import CvtbImg from '/public/assets/CV/CV-TB.png'
 import React from 'react';
 
-const PNG_FILE_URL = 'http://localhost:3000/CV-TB.png'
+const PNG_FILE_URL = '/CV-TB.png'
 
 function App() {
     const downloadFileAtURL = (url) => {
@@ -16,7 +16,7 @@ function App() {
     };
 
     return (
-      <div id='Cv' className='max-w-[1240px] mx-auto px-2 py-[10%] md:py-[15%] xs:py-[10%] xs:mt-[40%]'>
+      <div id='Cv' className='max-w-[1240px] mx-auto px-2 py-[10%] md:py-[15%] xs:py-[10%] xs:mt-[40%] md:mt-[30%]'>
           <p className='uppercase text-3xl tracking-widest text-[#298789]'>Mon CV</p>
               <div className='py-6 flex justify-center'>
                   <Image

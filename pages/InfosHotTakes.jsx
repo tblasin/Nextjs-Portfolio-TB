@@ -38,7 +38,7 @@ const InfosHotTakes = () => {
                         </div> 
                         <div>
                             <p className='pt-6 text-lg'>Contact :</p>
-                            <div className='flex items-center justify-evenly space-x-3  py-4 lg:justify-center-space-x-8'>
+                            <div className='flex items-center justify-center space-x-4 py-4 lg:justify-center-space-x-8'>
                                 <div className='rounded-full bg-[#C4C3C3] shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-in duration-300 xs:p-4'>
                                     <a href='https://www.linkedin.com/in/tblasin/'>
                                         <FaLinkedinIn />
