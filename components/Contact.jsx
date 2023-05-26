@@ -124,10 +124,8 @@ const Contact = () => {
                                 alt='Copyrights' 
                             />
                         </div> 
-                        <div className='text-xs'>2023 Tristan BLASIN.</div>
-                        
-                </div>
-                <div className='flex justify-center text-xs'>All rights reserved.</div>
+                        <div className='text-xs'>2023 All rights reserved.</div>     
+                </div>   
         </div>
     </div>
   )
