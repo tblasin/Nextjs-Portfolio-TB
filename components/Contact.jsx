@@ -24,7 +24,7 @@ const Contact = () => {
 
                 {/* left */}
 
-                <div className='col-span-3 lg:col-span-2 w-full h-full bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl p-2 xs:w-[95%]'>
+                <div className='col-span-3 lg:col-span-2 w-full h-full bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl p-2 xs:w-[95%] relative flex items-center justify-center'>
                     <div className='lg:p-4 h-full rounded-xl'>
                             <div>
                                 <Image className='rounded-xl contrast-200' 
@@ -70,7 +70,7 @@ const Contact = () => {
 
 
                 {/* right */}
-                    <div className='col-span-3 w-full h-auto bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl lg:p-4 xs:w-[95%]'>
+                    <div className='col-span-3 w-full h-auto bg-[#F4F4F4] opacity-90 shadow-xl shadow-gray-400 rounded-xl lg:p-4 xs:w-[95%] relative flex items-center justify-center'>
                         <div className='p-4'>
                             <form action="https://formsubmit.co/74cac7766b6642074dccee225ae0fcce" method="POST">
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
