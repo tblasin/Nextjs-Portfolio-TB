@@ -6,7 +6,7 @@ import CssImg from '/public/assets/css.png'
 import JsImg from '/public/assets/javascript.png'
 import ReactImg from '/public/assets/react.png'
 import NextImg from '/public/assets/nextjs.png' 
-import TailwindImg from '/public/assets/tailwind.png'
+import NodeImg from '/public/assets/node.png'
 import GithubImg from '/public/assets/github1.png' 
 import MongodbImg from '/public/assets/mongo.png'
 
@@ -75,7 +75,7 @@ const Skills = () => {
                                     />                        
                                 </div>
                                 <div className='flex flex-col items-center justify-center'>
-                                    <h3>REACT</h3>
+                                    <h3>REACT.Js</h3>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ const Skills = () => {
                                     />                        
                                 </div>
                                 <div className='flex flex-col items-center justify-center'>
-                                    <h3>NEXT</h3>
+                                    <h3>NEXT.Js</h3>
                                 </div>
                             </div>
                         </div>
@@ -98,14 +98,14 @@ const Skills = () => {
                             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                                 <div className='m-auto'>
                                     <Image 
-                                        src={TailwindImg} 
+                                        src={NodeImg} 
                                         width={64} 
                                         height={64} 
                                         alt='/'   
                                     />                        
                                 </div>
                                 <div className='flex flex-col items-center justify-center'>
-                                    <h3>TAILWIND</h3>
+                                    <h3>NODE.Js</h3>
                                 </div>
                             </div>
                         </div>
