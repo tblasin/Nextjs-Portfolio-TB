@@ -36,7 +36,7 @@ const Contact = () => {
                             <div className='p-6 pt-1 mt-4 bg-[#FFFF] shadow-xl rounded-xl'>
                                 <h2 className='py-6'>Tristan Blasin</h2>
                                 <p className='py-1 text-lg'>Développeur web Front-end React.Js</p>
-                                <p className='py-4 text-lg lg:text-base xs:text-md'>Parlons de vos projets de vive voix</p>
+                                <p className='py-4 text-lg lg:text-base xs:text-md'>Parlons de vos projets de vive voix !</p>
                                 <p className='py-4'>E-mail : trblasin@gmail.com</p>
                                 <p>Portable : 0692.28.39.28</p>
                             </div> 

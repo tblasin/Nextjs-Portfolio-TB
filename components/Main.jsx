@@ -21,17 +21,19 @@ const Main = () => {
                 </div>
                 
                     <div className='md:mt-[-10%] xs:mt-[-10%]'>
-                        <h1 className='text-sm text-gray-700 xs:text-xs md:text-xl xs:mt-2 xl:text-4xl'>
+                        <h1 className='text-sm text-black-700 xs:text-xs md:text-xl xs:mt-2 xl:text-4xl'>
                             Bonjour, je m'appelle <span className='text-2xl text-[#02808e] xs:text-xs md:text-xl xl:text-4xl'>Tristan Blasin</span> 
                         </h1>
-                        <h1 className='py-2 text-2xl text-gray-700 xs:text-xs md:text-lg xl:text-2xl'>
+                        <h1 className='py-2 text-2xl text-black-700 xs:text-xs md:text-lg xl:text-2xl'>
                             Développeur Web Front-end React.Js
                         </h1>
-                            <p className='py-4 uppercase text-lg tracking-widest text-gray-700 xs:text-xs md:text-lg xs:py-2 xl:text-xl'>Créons un projet ensemble !</p>
-                            <p className=' text-gray-700 max-w-[85%] m-auto xs:text-xs md:text-xl xl:text-xl'>
+                            <p className='py-4 uppercase text-lg tracking-widest text-black-700 xs:text-xs md:text-lg xs:py-2 xl:text-xl'>Créons un projet ensemble !</p>
+                            <p className=' text-black-700 max-w-[85%] m-auto xs:text-xs md:text-xl xl:text-xl'>
                                 Je suis développeur web spécialisé dans la réalisation 
-                                de sites web dynamiques de dernière génération, codés en JavaScript et React.Js. 
-                                Actuellement je me spécialise dans la création d'applications web front-end grâce à Next.Js, un puissant framework React.</p> 
+                                de sites web dynamiques de dernière génération e-commerce/responsive codés en HTML5, Css3, JavaScript et React.Js</p>
+                                <p className=' text-black-700 max-w-[85%] m-auto xs:text-xs md:text-xl xl:text-xl'>J‘ai été également formé pour la partie back-end/API sur NODE.Js Express.Js et MongoDB</p>
+                                <p className=' text-black-700 max-w-[85%] m-auto xs:text-xs md:text-xl xl:text-xl'>Actuellement je me spécialise dans la création d’applications web front-end grâce à Next.Js,</p>
+                                <p className=' text-black-700 max-w-[85%] m-auto xs:text-xs md:text-xl xl:text-xl'>un puissant framework basé sur React.Js</p> 
                             <p className='flex justify-center md:w-[90%] md:ml-9 xs:text-xs md:text-xl xl:text-xl xl:m-auto'>Enfin je m'intéresse à React Native afin de concevoir des applications mobiles "Android" et "iOS".</p>
                     
                                     <div className='flex items-center justify-evenly xl:space-x-6 max-w-[330px] m-auto py-10 xs:w-60 xl:py-15'>

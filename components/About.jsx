@@ -11,17 +11,16 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-3xl tracking-widest text-[#298789]'>A propos</p>
                   <h2 className='py-4'>Qui suis-je ?</h2>
-                      <div className='py-7 p-8 bg-[#FFFF] shadow-xl rounded-xl text-gray-600'>
-                          Après avoir obtenu un master en management des métiers du tourisme, j'ai eu la possibilité de travailler dans un certain nombre d'entreprises locales et à l'étranger.
-                          <p>Puis, j'ai été responsable informatique et réseau ainsi que formateur dans le milieu scolaire durant trois années.
-                             J'ai toujours eu un attrait particulier pour l'outil informatique, que ce soit durant mes études ou pour réparer les "PC"/"Mac" et concevoir mes propres configurations "hardware".</p>
-                          <p>En 2007, j'ai créé ma propre entreprise dans la fabrication de planches de surf sur mesure.</p> 
-                          <p>Ces 12 années d'activité artisanale et de commerce furent très compliquées...</p>
-                          <p>En effet, l'activité de loisirs tournée vers l'océan à la Réunion a subi, durant toute cette période, une crise sans précédent.</p>
-                          <p>Désireux de tourner une page professionnelle éprouvante, je décide en 2021 de suivre une formation en ligne chez "OpenClassrooms" afin de devenir développeur Web Front-end.</p>
-                          <p>J'ai donc commençé à apprendre les langages de programmation Html5 et Css3.</p>
-                          <p>Ensuite, le "vanilla JavaScript" pour rendre le site dynamique et enfin React.Js pour stucturer le code sous forme de composants.</p>
-                          <p>Actuellement, je me spécialise dans le développement d'applications web à l'aide de Next.js, et pour finir, je commence à apprendre React Native pour la création d'applications mobiles...</p>
+                      <div className='py-7 p-8 bg-[#FFFF] shadow-xl rounded-xl text-black-600'>
+                          Après avoir obtenu un master en management des métiers du tourisme, j'ai eu l'opportunité de travailler dans un certain nombre d'entreprises locales et à l'étranger.
+                          <p>Puis, j'ai été responsable informatique et réseau ainsi que formateur dans le milieu scolaire durant trois années.</p><br />
+                          <p>Passionné de surf, c'est en 2007 que je décide de créer ma propre marque/entreprise "karv and Co." spécialisée dans la fabrication de planches de surf sur mesure.</p>
+                          <p>Après plus de dix années d’activité à mon compte, j’entreprends en 2021 de suivre une formation en ligne chez
+                             OpenClassrooms/Paris afin de devenir développeur Web Front-end React.Js.</p><br />
+                          <p>Tous les sites web sont conçus avec les outils de dernière génération. Par conséquent vos différentes pages web seront "responsives" et s’afficheront sur tous types d’écrans (mobile, tablette, portable…)
+                              Enfin Ces outils permettent d’optimiser votre SEO, votre référencement naturel placera rapidement votre site web en tête des résultats de recherche Google !</p><br />
+                              
+                          <p>Actuellement, je finalise une formation en spécialité "Graphisme et Internet" à l'IFR de la Réunion.</p>
                       </div>
                         
               </div>
