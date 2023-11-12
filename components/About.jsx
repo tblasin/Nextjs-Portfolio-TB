@@ -14,13 +14,15 @@ const About = () => {
                       <div className='py-7 p-8 bg-[#FFFF] shadow-xl rounded-xl text-black-600'>
                           Après avoir obtenu un master en management des métiers du tourisme, j'ai eu l'opportunité de travailler dans un certain nombre d'entreprises locales et à l'étranger.
                           <p>Puis, j'ai été responsable informatique et réseau ainsi que formateur dans le milieu scolaire durant trois années.</p><br />
-                          <p>Passionné de surf, c'est en 2007 que je décide de créer ma propre marque/entreprise "karv and Co." spécialisée dans la fabrication de planches de surf sur mesure.</p>
+                          <p>Passionné de surf, c'est en 2007 que je décide de créer ma propre entreprise "karv and Co." spécialisée dans la fabrication de planches de surf sur mesure.</p>
                           <p>Après plus de dix années d’activité à mon compte, j’entreprends en 2021 de suivre une formation en ligne chez
                              OpenClassrooms/Paris afin de devenir développeur Web Front-end React.Js.</p><br />
-                          <p>Tous les sites web sont conçus avec les outils de dernière génération. Par conséquent vos différentes pages web seront "responsives" et s’afficheront sur tous types d’écrans (mobile, tablette, portable…)
-                              Enfin Ces outils permettent d’optimiser votre SEO, votre référencement naturel placera rapidement votre site web en tête des résultats de recherche Google !</p><br />
+                             <p>Pour finir, j'ai suivi cette année, une formation en spécialité "Graphisme et Internet" à l'IFR de la Réunion afin de proposer mes compétences en création de logos et de travailler au mieux l'esthétique des sites web créés.</p>
+                          <p>Nos sites web sont conçus avec des langages digitaux de dernière génération, 
+                             ces outils permettent d’optimiser le « référencement naturel » ce qui amène votre clientèle cible à trouver rapidement votre site web en tête des résultats des moteurs de recherche !
+                          </p><br />
                               
-                          <p>Actuellement, je finalise une formation en spécialité "Graphisme et Internet" à l'IFR de la Réunion.</p>
+                          
                       </div>
                         
               </div>
