@@ -15,7 +15,7 @@ const Main = () => {
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div className='mt-auto md:py-[13%] lg:py-[5%]'>
                 <div className='w-full flex justify-center pt-20 md:py-[10%] md:pt-0'>
-                    <div className='w-50 h-auto m-10 shadow-xl shadow-gray-400 rounded-xl p-2'>
+                    <div className='w-50 h-auto m-10 shadow-xl shadow-gray-400 rounded-xl p-1'>
                             <Image className='rounded-xl w-200 h-auto' src={PhototbImg} width='200' height='100' alt='PhotoTB' /> 
                     </div>
                 </div>
